@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LPP Convertor</title>
+    <style>
+        .calculator-container{
+            background-color: #3498DB;
+            color: black;
+            width: 500px;
+            padding: 50px;
+            margin: auto;
+            border: 3px solid gray;
+        }
+        button{
+            background-color: azure;
+            color: black;
+            border: none;
+            min-height: 50px;
+            min-width: 100px;
+            border-radius: 30px;
+        }
+        button:hover{
+            background-color: gray;
+            color: azure;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Luas Persegi Panjang Calculator</h1>
+        <p>Panjang</p>
+        <input class="panjang" type="text">
+        <p>Lebar</p>
+        <input class="lebar" type="text"><br><br>
+        <button onclick="myFunction()" class="luas">calculate</button>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
